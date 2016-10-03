@@ -2,7 +2,7 @@
   "name": "knockout-jqueryui",
   "description": "knockout binding handlers for jQuery UI",
   "homepage": "https://gvas.github.io/knockout-jqueryui/",
-  "version": "2.2.3-dev",
+  "version": "2.2.5",
   "author": {
     "name": "Vas Gabor <gvas.munka@gmail.com>"
   },
@@ -34,7 +34,7 @@
     "grunt-contrib-jshint": "~1.0.0",
     "grunt-contrib-uglify": "~2.0.0",
     "grunt-contrib-watch": "~1.0.0",
-    "grunt-sauce-tunnel": "~0.2.1",
+    "grunt-sauce-tunnel": "jhorowitz-firedrum/grunt-sauce-tunnel",
     "grunt-saucelabs": "~9.0.0",
     "load-grunt-config": "~0.19.2",
     "q": "~1.4.1",
