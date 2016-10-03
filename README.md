@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/gvas/knockout-jqueryui.png)](https://travis-ci.org/gvas/knockout-jqueryui) [![devDependency Status](https://david-dm.org/gvas/knockout-jqueryui/dev-status.svg)](https://david-dm.org/gvas/knockout-jqueryui#info=devDependencies) [![Built with Grunt](https://cdn.gruntjs.com/builtwith.png)](http://gruntjs.com/)
+[![Build Status](https://travis-ci.org/jhorowitz-firedrum/knockout-jqueryui.png)](https://travis-ci.org/jhorowitz-firedrum/knockout-jqueryui) [![devDependency Status](https://david-dm.org/jhorowitz-firedrum/knockout-jqueryui/dev-status.svg)](https://david-dm.org/jhorowitz-firedrum/knockout-jqueryui#info=devDependencies) [![Built with Grunt](https://cdn.gruntjs.com/builtwith.png)](http://gruntjs.com/)
 [![Sauce Test Status](https://saucelabs.com/browser-matrix/gvas.svg)](https://saucelabs.com/u/gvas)
 
 
@@ -10,7 +10,7 @@ Documentation
 
 Build
 -----
-    git clone git://github.com/gvas/knockout-jqueryui.git knockout-jqueryui
+    git clone git://github.com/jhorowitz-firedrum/knockout-jqueryui.git knockout-jqueryui
     cd knockout-jqueryui
     npm install -g grunt-cli
     npm install
