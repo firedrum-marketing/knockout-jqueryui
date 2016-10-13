@@ -1,10 +1,10 @@
-/*! knockout-jqueryui - v2.2.4 - 10/13/2016
+/*! knockout-jqueryui - v2.2.5 - 10/13/2016
 * https://gvas.github.io/knockout-jqueryui/
 * Copyright (c) 2016 Vas Gabor <gvas.munka@gmail.com> Licensed MIT */
 /*jslint browser:true*/
-/*globals require, module, define*/
+/*globals global, self, window, require, module, define*/
 
-(function (factory) {
+(function (factory, global) {
     'use strict';
 
     // Module systems magic dance.
@@ -16,12 +16,12 @@
         define(['jquery', 'knockout', 'jquery-ui', 'exports'], factory);
     } else {
         // <script> tag: use the global `ko` object
-        factory(jQuery, ko, jQuery.ui);
+        global.kojqui = factory(jQuery, ko, jQuery.ui);
     }
 }(function (jQuery, ko) {
     'use strict';
 
-    var kojqui = { version: '2.2.4' };
+    var kojqui = { version: '2.2.5' };
 
     (function (factory) {
 
@@ -1138,5 +1138,7 @@
 
         return Tooltip;
     }
-));    return kojqui;
-}));
+));
+
+    return kojqui;
+}, typeof global !== 'undefined' ? global : typeof self !== 'undefined' ? self : typeof window !== 'undefined' ? window : {}));
